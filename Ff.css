@@ -1,0 +1,41 @@
+body{
+    background-color: teal;
+}
+form{
+    background-color: rgb(22, 20, 20);
+    width: 400px;
+    height: 450px;
+    margin: auto;
+}
+legend{
+    color: rgb(231, 231, 231);
+    text-align: center;
+}
+h1{
+    color: rgb(231, 231, 231);
+    text-align: center;
+}
+input,button{
+    text-align: center;
+    height: 60px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    border: 1px solid white;
+    border-radius: 40px;
+    color: white;
+}
+input{
+    background-color: rgb(22, 20, 20);
+    padding-left: 20px;
+    font-size: 20px; 
+   width:360px;
+}
+button{
+    background-color: rgb(6, 105, 6);
+    width:380px;
+}
+button:hover{border: 1px solid green;}
+input:hover{border: 1px solid green;}
+input:focus{
+    border: 1px solid green;
+}
